@@ -1,7 +1,7 @@
-CREATE USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
-CREATE USER 'root'@'%' IDENTIFIED BY 'replpass';
+CREATE USER 'debezium'@'%' IDENTIFIED WITH mysql_native_password BY 'dbz';
+CREATE USER 'replicator'@'%' IDENTIFIED BY 'replpass';
 
-GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT  ON *.* TO 'root';
+GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT  ON *.* TO 'debezium';
 GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replicator';
 
 create database demo;
