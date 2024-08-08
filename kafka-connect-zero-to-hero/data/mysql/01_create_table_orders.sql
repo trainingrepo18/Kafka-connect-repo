@@ -1,4 +1,4 @@
-use demo;
+use root;
 
 create table ORDERS (
 	id MEDIUMINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
