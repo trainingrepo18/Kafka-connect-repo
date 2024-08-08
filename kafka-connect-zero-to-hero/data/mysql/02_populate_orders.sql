@@ -1,4 +1,4 @@
-use demo;
+use root;
 
 insert into ORDERS (customer_id, order_total_usd, make, model, delivery_city, delivery_company, delivery_address) values (254, 75741.44, 'Mercury', 'Grand Marquis', 'Swindon', 'Haley, Mueller and Okuneva', '77 Main Drive');
 insert into ORDERS (customer_id, order_total_usd, make, model, delivery_city, delivery_company, delivery_address) values (548, 76164.42, 'Land Rover', 'Defender 90', 'Sheffield', 'Swift LLC', '54258 Michigan Parkway');
